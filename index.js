@@ -75,8 +75,8 @@ client.on('message', (message) => {
   });
   
 client.on('message', (message) => {
-    if(message.content === '제일중 시간표 봇') {
-      message.reply('그쉑이 나 홍보해주는중ㅋㅋㅋㅋㅋ');
+    if(message.content === '모모') {
+      message.reply('https://ibb.co/1dK94mS');
     }
   });
 client.login(token);
