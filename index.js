@@ -211,4 +211,16 @@ client.on('message', (message) => {
       message.reply('ㅈ까 ㅅㅂ아');
     }
   });
+
+client.on('message', (message) => {
+    if(message.content === '슷칼봇 주식 정보') {
+      message.reply('봐서 뭐하냐? 니새끼가 망할건 안봐도 비디오다 ㅋㅋㅋㅋㅋㅋㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === '슷지갑') {
+      message.reply('아... 불쌍해.... 안봐도 텅텅 비었자나 ㅠㅠ ㅋㅋㅋㅋㅋㅋㅋ');
+    }
+  });
 client.login(token);
