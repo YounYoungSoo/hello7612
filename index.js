@@ -33,6 +33,12 @@ client.on('message', (message) => {
 });
 
 client.on('message', (message) => {
+  if(message.content === 'ㅅㅂ') {
+    message.reply('ㅈ까세요');
+  }
+});
+
+client.on('message', (message) => {
     if(message.content === 'ㅃ2') {
       message.reply('그래~~ 잘꺼져~~');
     }
