@@ -163,5 +163,11 @@ client.on('message', (message) => {
       message.reply('욕 작작 쳐해 개새끼야');
     }
   });
+
+client.on('message', (message) => {
+    if(message.content === '나가뒤져') {
+      message.reply('ㅗㅗㅗㅗ');
+    }
+  });
   
 client.login(token);
