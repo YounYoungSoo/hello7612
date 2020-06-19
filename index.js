@@ -62,6 +62,36 @@ client.on('message', (message) => {
     }
   });
 
+ client.on('message', (message) => {
+    if(message.content === '?') {
+      message.reply('닥치삼');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === '???') {
+      message.reply('닥치삼');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === '????') {
+      message.reply('닥치삼');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === '?????') {
+      message.reply('닥치삼');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === '??????') {
+      message.reply('닥치삼');
+    }
+  });
+
 client.on('message', (message) => {
     if(message.content === 'ㅋ') {
       message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
@@ -172,7 +202,7 @@ client.on('message', (message) => {
 
 client.on('message', (message) => {
     if(message.content === '나가죽어') {
-      message.reply('강희새끼 노동 ㅈㄴ 시키네');
+      message.reply('노동 ㅈㄴ 시키네');
     }
   });
 
