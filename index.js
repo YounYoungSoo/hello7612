@@ -27,14 +27,14 @@ client.on("guildMemberRemove", (member) => {
 });
 
 client.on('message', (message) => {
-  if(message.content === '야 머하냐') {
-    message.reply('사칭하는중 왜?');
+  if(message.content === 'ㄱㅅㄲ') {
+    message.reply('ㅅㅂ새끼');
   }
 });
 
 client.on('message', (message) => {
-    if(message.content === '아니 ㅅㅂ ㅋㅋㅋ 사칭을 왜해?') {
-      message.reply('하고 싶으니까 하지  ');
+    if(message.content === 'ㅃ2') {
+      message.reply('그래~~ 잘꺼져~~');
     }
   });
 
@@ -57,26 +57,105 @@ client.on('message', (message) => {
   });
 
 client.on('message', (message) => {
-    if(message.content === '하이드로펌프') {
-      message.reply('https://ifh.cc/g/B6iDbB.png');
+    if(message.content === 'ㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
     }
   });
 
 client.on('message', (message) => {
-    if(message.content === '하이드로펌프') {
+    if(message.content === 'ㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+  client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
+      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === '$하이드로펌프') {
       message.reply('아 빨리 화장실 가라.... 여기에 싸지말고...');
     }
   });
 
 client.on('message', (message) => {
-    if(message.content === '왜사니?') {
-      message.reply('제작자 새끼가 나 만들어서 어쩔수 없이 사는중..');
+    if(message.content === '아 ㅅㅂ') {
+      message.reply('욕 작작 쳐해 개새끼야');
     }
   });
   
-client.on('message', (message) => {
-    if(message.content === '모모') {
-      message.reply('https://ibb.co/1dK94mS');
-    }
-  });
 client.login(token);
