@@ -169,5 +169,16 @@ client.on('message', (message) => {
       message.reply('ㅗㅗㅗㅗ');
     }
   });
-  
+
+client.on('message', (message) => {
+    if(message.content === '나가죽어') {
+      message.reply('강희새끼 노동 ㅈㄴ 시키네');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === 'ㅗ') {
+      message.reply('ㅈ까 ㅅㅂ아');
+    }
+  });
 client.login(token);
