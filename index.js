@@ -4,7 +4,7 @@ const token = process.env.token;
 const welcomeChannelName = "공부";
 const byeChannelName = "공부";
 const welcomeChannelComment = "안녕하세요";
-const byeChannelComment = "와 이제 쟤 나가서 속이 다 풀린다 ㅅㅂ ㅋㅋㅋ";
+const byeChannelComment = "드디어 나갔군요!";
 
 client.on('ready', () => {
   console.log('켰다.');
@@ -28,199 +28,199 @@ client.on("guildMemberRemove", (member) => {
 
 client.on('message', (message) => {
   if(message.content === 'ㄱㅅㄲ') {
-    message.reply('ㅅㅂ새끼');
+    message.reply('욕은 나빠요!');
   }
 });
 
 client.on('message', (message) => {
   if(message.content === 'ㅅㅂ') {
-    message.reply('ㅈ까세요');
+    message.reply('욕은 듣기 해로우니 자제해주세요!');
   }
 });
 
 client.on('message', (message) => {
     if(message.content === 'ㅃ2') {
-      message.reply('그래~~ 잘꺼져~~');
+      message.reply('넵 안녕히계세요');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅇㅇ') {
-      message.reply('어쩌라는거지?');
+      message.reply('아 그렇군요!');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === '왓더뻑?') {
-      message.reply('역겨워 ㅅㅂ ㅋㅋㅋㅋ');
+      message.reply('네? 무슨말씀을 하시는건지...');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === '??') {
-      message.reply('닥치삼');
+      message.reply('저도 의문이 드는군요.. -.-');
     }
   });
 
  client.on('message', (message) => {
     if(message.content === '?') {
-      message.reply('닥치삼');
+      message.reply('저도 의문이 드는군요.. -.-');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === '???') {
-      message.reply('닥치삼');
+      message.reply('저도 의문이 드는군요.. -.-');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === '????') {
-      message.reply('닥치삼');
+      message.reply('저도 의문이 드는군요.. -.-');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === '?????') {
-      message.reply('닥치삼');
+      message.reply('저도 의문이 드는군요.. -.-');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === '??????') {
-      message.reply('닥치삼');
+      message.reply('저도 의문이 드는군요.. -.-');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
   client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ') {
-      message.reply('뭘 쳐웃어 새꺄ㅋㅋ');
+      message.reply('님도 웃으니 저도 웃기네요 ㅎㅎㅎ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === '$하이드로펌프') {
-      message.reply('아 빨리 화장실 가라.... 여기에 싸지말고...');
+      message.reply('다른사람한테 피해를 입히는건 옳지 않아요. 빨리 화장실에 가는것을 권장드릴게요');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === '아 ㅅㅂ') {
-      message.reply('욕 작작 쳐해 개새끼야');
+      message.reply('욕을 자제해주세요 ㅠㅠ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === '나가뒤져') {
-      message.reply('ㅗㅗㅗㅗ');
+      message.reply('나가뒤지는건 니새끼고');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === '나가죽어') {
-      message.reply('노동 ㅈㄴ 시키네');
+      message.reply('이 시발새끼가 ');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === 'ㅗ') {
-      message.reply('ㅈ까 ㅅㅂ아');
+      message.reply('ㅗ요? 엿을 의미하는건가요? 아님 오(5)를 의미하는건가요?');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === '슷칼봇 주식 정보') {
-      message.reply('봐서 뭐하냐? 니새끼가 망할건 안봐도 비디오다 ㅋㅋㅋㅋㅋㅋㅋㅋ');
+      message.reply('음.. 안봐도 뻔하네요..');
     }
   });
 
 client.on('message', (message) => {
     if(message.content === '슷지갑') {
-      message.reply('아... 불쌍해.... 안봐도 텅텅 비었자나 ㅠㅠ ㅋㅋㅋㅋㅋㅋㅋ');
+      message.reply('.... 답이 없네요....');
     }
   });
 
@@ -238,7 +238,7 @@ client.on('message', (message) => {
 
 client.on('message', (message) => {
     if(message.content === '왜불러') {
-      message.reply('니 ㅈㄴ 팰려고 불렀음 ㅋㅋ');
+      message.reply('왜부르긴요. 나랑 사귀자');
     }
   });
 
