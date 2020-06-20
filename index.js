@@ -235,4 +235,10 @@ client.on('message', (message) => {
       message.reply('해석\n선익\n선익\n야한선익\n');
     }
   });
+
+client.on('message', (message) => {
+    if(message.content === '왜불러') {
+      message.reply('니 ㅈㄴ 팰려고 불렀음 ㅋㅋ');
+    }
+  });
 client.login(token);
