@@ -241,4 +241,17 @@ client.on('message', (message) => {
       message.reply('니 ㅈㄴ 팰려고 불렀음 ㅋㅋ');
     }
   });
+
+client.on('message', (message) => {
+    if(message.content === '선익') {
+      message.reply('https://ifh.cc/g/xENpWi.jpg');
+    }
+  });
+
+  client.on('message', (message) => {
+    if(message.content === '선익시스템') {
+      message.reply('선익 시스템 바로가기 : http://www.sunic.co.kr/\n제보해준 저요 저요 감사합니다 ');
+    }
+  });
+
 client.login(token);
