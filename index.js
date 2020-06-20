@@ -223,4 +223,16 @@ client.on('message', (message) => {
       message.reply('아... 불쌍해.... 안봐도 텅텅 비었자나 ㅠㅠ ㅋㅋㅋㅋㅋㅋㅋ');
     }
   });
+
+client.on('message', (message) => {
+    if(message.content === '선익') {
+      message.reply('tjsdlr\ntjsdlr\ndigkstjsdlr\n');
+    }
+  });
+
+client.on('message', (message) => {
+    if(message.content === '선익') {
+      message.reply('해석\n선익\n선익\n야한선익\n');
+    }
+  });
 client.login(token);
